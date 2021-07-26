@@ -1,0 +1,40 @@
+@media print{
+  .archive-link{
+    display: none;
+  }
+
+  footer{
+    display: none;
+  }
+
+  .put-list{
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  hr{
+      display: none;
+  }
+
+  .red-link{
+      display: none;
+  }
+
+  .non-print{
+      display: none;
+  }
+
+  .btn{
+      display: none;
+  }
+
+  .print-date{
+  border: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 18px;
+  }
+}

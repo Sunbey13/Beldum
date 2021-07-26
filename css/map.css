@@ -1,0 +1,149 @@
+.sec { 
+display:inline-block; 
+position:relative; 
+}
+.sec span.sec_1{
+display:inline-block; 
+position:absolute; 
+top:20%; 
+left:76%; 
+    
+/* Оформление текста */ 
+color:#FFF; 
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 35px; 
+
+/* Фон */ 
+background-color:rgba(0,0,0,0.2); 
+padding:10px 30px; 
+    border-radius: 100px;
+}
+
+.sec span.sec_2{
+    display:inline-block; 
+position:absolute; 
+top:65%; 
+left:76%; 
+    
+/* Оформление текста */ 
+color:#FFF; 
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 35px; 
+
+/* Фон */ 
+background-color:rgba(0,0,0,0.2); 
+padding:10px 30px; 
+border-radius: 100px;
+}
+
+.sec span.sec_3{
+display:inline-block; 
+position:absolute; 
+top:65%; 
+left:17%; 
+    
+/* Оформление текста */ 
+color:#FFF; 
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 35px; 
+
+/* Фон */ 
+background-color:rgba(0,0,0,0.2); 
+padding:10px 30px; 
+border-radius: 100px;
+}
+
+.sec span.sec_4{ 
+display:inline-block; 
+position:absolute; 
+top:20%; 
+left:17%; 
+
+/* Оформление текста */ 
+color:#FFF; 
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 35px; 
+
+/* Фон */ 
+background-color:rgba(0,0,0,0.2); 
+padding:10px 30px; 
+    border-radius: 100px;
+}
+
+.sec span.sec_5{ 
+display:inline-block; 
+position:absolute; 
+top:42%; 
+left:45%; 
+
+/* Оформление текста */ 
+color:#FFF; 
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 35px; 
+
+/* Фон*/ 
+background-color:rgba(0,0,0,0.2); 
+padding: 10px 30px; 
+border-radius: 100px;
+}
+
+.hid{
+    display: none;
+}
+.sec a{
+    color: #fff;
+}
+
+@media(max-width: 768px){
+.sec span.sec_5{
+    left: 44%;
+}
+}
+
+@media(max-width: 375px){
+    .sec span.sec_1{
+    top: 15%; 
+    left:72%; 
+    color:#FFF; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 20px;  
+    padding: 5px 15px; 
+    }
+
+    .sec span.sec_2{
+    left:72%; 
+    color:#FFF; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 20px;  
+    padding: 5px 15px; 
+    }
+
+    .sec span.sec_3{
+    color:#FFF; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 20px;  
+    padding: 5px 15px; 
+    }
+
+    .sec span.sec_4{
+    top: 15%; 
+    color:#FFF; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 20px;  
+    padding: 5px 15px; 
+    }
+
+    .sec span.sec_5{
+    color:#FFF; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 20px;  
+    padding: 5px 15px; 
+    }
+}
+
+
+
+
+
+
+
